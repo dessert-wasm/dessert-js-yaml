@@ -1,6 +1,6 @@
 {
   "name": "dessert-js-yaml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js-yaml but with WebAssembly",
   "scripts": {},
   "repository": {
