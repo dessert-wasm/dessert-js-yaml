@@ -1,6 +1,9 @@
 Dessert JS-YAML
 ============
 
+[![NPM version](https://img.shields.io/npm/v/dessert-js-yaml.svg)](https://www.npmjs.org/package/dessert-js-yaml)
+
+
 This library is a clone of [js-yaml] implemented in Rust for WebAssembly.
 
 *dessert-js-yaml* is a connector with the WASM core: [dessert-yaml-core]
