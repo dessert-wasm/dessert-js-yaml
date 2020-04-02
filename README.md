@@ -1,10 +1,17 @@
+[![](https://user-images.githubusercontent.com/25987204/78205790-10b0c680-74d8-11ea-9767-5bb93e920044.png)](https://dessert.dev/)
+
 Dessert JS-YAML
 ============
 
-[![NPM version](https://img.shields.io/npm/v/dessert-js-yaml.svg)](https://www.npmjs.org/package/dessert-js-yaml)
+[![npm-badge]][npm-url]
+[![license-badge]][license]
 
+[npm-badge]: https://img.shields.io/npm/v/dessert-js-yaml.svg
+[npm-url]: https://www.npmjs.org/package/dessert-js-yaml
+[license-badge]: https://img.shields.io/github/license/dessert-wasm/dessert-js-yaml
+[license]: LICENSE_MIT
 
-This library is a clone of [js-yaml] implemented in Rust for WebAssembly.
+> Clone of [js-yaml] implemented in Rust for WebAssembly.
 
 *dessert-js-yaml* is a connector with the WASM core: [dessert-yaml-core]
 
@@ -18,21 +25,15 @@ To see how it performs compared to js-yaml, see [here]
 
 [here]: https://github.com/dessert-wasm/dessert-yaml-core#performance
 
-## Summary
-* [Installation](#installation)
+## Table of contents
+* [Usage](#usage)
 * [API](#api)
+* [Installation](#installation)
+* [License](#license)
+* [Contributing](#contributing)
 
 
-## Installation
-```sh
-npm install dessert-js-yaml
-```
-
-## API
-
-The api should be the same as [js-yaml], but not all methods are supported yet
-
-[js-yaml]: https://github.com/nodeca/js-yaml#api
+## Usage
 
 ``` javascript
 yaml = require('dessert-js-yaml');
@@ -50,6 +51,12 @@ try {
   console.log(e);
 }
 ```
+
+## API
+
+The api should be the same as [js-yaml], but not all methods are supported yet
+
+[js-yaml]: https://github.com/nodeca/js-yaml#api
 
 ### load(string, [, options])
 Most simple way of parsing a document. Parses string as single YAML document. Returns a JavaScript object or throws YAMLException on error. options aren't used as for now.
@@ -70,3 +77,16 @@ Serializes object as a YAML document
 
 ### safeDump(objects, [, options])
 Same as dump()
+
+
+## Installation
+```sh
+npm install dessert-js-yaml
+```
+
+## License
+This software is licensed under the MIT license (see [LICENSE](LICENSE_MIT)).
+
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md)
