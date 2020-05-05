@@ -1,19 +1,27 @@
 {
-  "name": "dessert-js-yaml",
-  "version": "1.0.4",
+  "author": "Dessert",
+  "bugs": {
+    "url": "https://github.com/dessert-wasm/dessert-js-yaml/issues"
+  },
+  "dependencies": {
+    "dessert-yaml-core": "^0.1.1"
+  },
   "description": "js-yaml but with WebAssembly",
-  "scripts": {},
+  "dessert": {
+    "is_core": false
+  },
+  "homepage": "https://github.com/dessert-wasm/dessert-js-yaml#readme",
+  "keywords": [
+    "dessert",
+    "wasm",
+    "yaml"
+  ],
+  "license": "MIT",
+  "name": "dessert-js-yaml",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dessert-wasm/dessert-js-yaml.git"
   },
-  "author": "Dessert",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dessert-wasm/dessert-js-yaml/issues"
-  },
-  "homepage": "https://github.com/dessert-wasm/dessert-js-yaml#readme",
-  "dependencies": {
-    "dessert-yaml-core": "^0.1.1"
-  }
+  "scripts": {},
+  "version": "1.0.5"
 }
